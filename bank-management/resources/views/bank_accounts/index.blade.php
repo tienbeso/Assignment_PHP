@@ -3,8 +3,6 @@
 @section('title', 'Danh sách tài khoản')
 
 @section('content')
-
-    {{-- HEADER TRANG --}}
     <div class="flex items-center justify-between mb-6">
         <div>
             <h3 class="text-2xl font-bold text-slate-800">Danh sách tài khoản</h3>
@@ -48,11 +46,11 @@
         <div class="flex justify-end gap-2 mt-5 pt-4 border-t">
             <a href="{{ route('bank-accounts.index') }}"
                class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-sm font-medium">
-                ↻ Reset
+                 Reset
             </a>
             <button type="submit"
                     class="px-5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-sm font-medium shadow">
-                🔍 Áp dụng
+                 Áp dụng
             </button>
         </div>
     </form>

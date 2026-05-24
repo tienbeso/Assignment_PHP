@@ -30,7 +30,6 @@
                 <th class="px-4 py-3">Status</th>
             </tr>
             </thead>
-
             <tbody>
             @foreach($bankAccounts as $acc1)
                 <tr class="border-b hover:bg-gray-50">

@@ -22,7 +22,6 @@ class BankAccountFactory extends Factory
         $step = 500_000_000 / 49 ;
         $balance = round(self::$sequence * $step, 2);
         self::$sequence++;
-
         return [
             'account_number' => $this->faker->unique()->numerify('##########'),
             'full_name' => $this->faker->name(),

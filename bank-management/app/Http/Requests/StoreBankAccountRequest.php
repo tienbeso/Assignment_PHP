@@ -30,7 +30,6 @@ class StoreBankAccountRequest extends FormRequest
             'balance' => ['nullable', 'numeric', 'min:0'],
         ];
     }
-
     public function messages(): array
     {
         return [

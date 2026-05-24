@@ -27,14 +27,10 @@
             </a>
         </nav>
     </aside>
-
-    {{-- MAIN --}}
     <main class="flex-1 p-8">
         @yield('content')
     </main>
 </div>
-
-{{-- TOAST (sẽ dùng ở Phase 3) --}}
 @if (session('success'))
     <div id="toast" class="fixed top-5 right-5 z-50 bg-emerald-500 text-white px-5 py-4 rounded-lg shadow-2xl flex items-center gap-3">
         <span class="text-xl">✓</span>
